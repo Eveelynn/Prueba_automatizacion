@@ -1,0 +1,103 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "agregar un iphone al carrito de compras",
+        "description": "",
+        "id": "opencart-abstracta;agregar-un-iphone-al-carrito-de-compras",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "realizar la busqueda del iPhone",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "escribir la palabra iPhone en el buscador",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "seleccionar boton buscar",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "seleccionar la primera opcion",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "agregar el producto al carrito de compras",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "ver carrito de compras",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "validar que el iPhone seleccionado se encuentre en el carrito de compras",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "seleccionar boton Remove para quitar iPhone del carrito de compras",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "validar que el iPhone ya no se encuentre en el carrito de compras",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "OpenCart Abstracta",
+    "description": "Como cliente de OpenCart quiero agregar al carrito de compras un iphone",
+    "id": "opencart-abstracta",
+    "keyword": "Feature",
+    "uri": "./src/main/resources/Features/carrito.feature"
+  }
+]
